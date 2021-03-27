@@ -1,0 +1,29 @@
+.Header{
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.left__logo {
+    width: 30%;
+}
+
+.left__logoImage{
+    width: 100%;
+}
+
+.left__Home,
+.left__notifications{
+    display: flex;
+    align-items: center;
+}
+
+
+.left__notifications{
+    margin-left: 0.6em;
+}
+
+.current-location{
+    color: red;
+    border-bottom: 1px solid red;
+}
